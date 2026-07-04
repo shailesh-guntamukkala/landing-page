@@ -1,14 +1,86 @@
-.header{
-display: flex;
-justify-content: space-between;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-background-color: #1F2937;
-color: white;
-height: 30px;
+.header{
+    background-color:#1F2937;
+    padding:16px 150px 100px;
+}
+
+/* Navbar */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:80px;
+}
+
+.header-logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#F9FAF8;
 }
 
 .header-nav{
-    display: flex;
-    gap: 40px;
-    justify-content:flex-end;
+    display:flex;
+    gap:32px;
+}
+
+.header-nav a{
+    text-decoration:none;
+    color:#E5E7EB;
+    font-size:18px;
+}
+
+/* Hero */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+}
+
+.hero-left{
+    flex:1;
+}
+
+.hero-left h1{
+    font-size:48px;
+    font-weight:900;
+    color:#F9FAF8;
+    margin-bottom:12px;
+}
+
+.hero-left p{
+    font-size:18px;
+    color:#E5E7EB;
+    margin-bottom:16px;
+}
+
+.hero-left button{
+    background:#3882F6;
+    color:white;
+    border:none;
+    padding:10px 30px;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.hero-right{
+    flex:1;
+    height:220px;
+    background:#6D747D;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+    font-size:18px;
 }
