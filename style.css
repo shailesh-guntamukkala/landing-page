@@ -59,6 +59,7 @@
     font-size:18px;
     color:#E5E7EB;
     margin-bottom:16px;
+    width: 450px;
 }
 
 .hero-left button{
@@ -73,14 +74,51 @@
 }
 
 .hero-right{
-    flex:1;
+    width: 500px;
     height:220px;
     background:#6D747D;
 
     display:flex;
     justify-content:center;
     align-items:center;
+    
 
     color:white;
     font-size:18px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    padding: 1.2%;
+    
+}
+
+.heading h1 {
+   font-size:250% ;
+}  
+
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+} 
+
+.card{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info .card .box{
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.info .card p{
+    margin-top:10px;
+    width:150px;
+    text-align:center;
 }
